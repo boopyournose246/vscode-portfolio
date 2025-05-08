@@ -16,7 +16,7 @@ This portfolio is a single-page application built primarily with HTML and CSS to
         * An "HTML code editor" style pane showcasing contact links and project highlights.
 * A **Status Bar** with typical VS Code information elements.
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used (Current Version)
 
 * **HTML5:** For the structure and content of the portfolio.
 * **CSS3:** For styling the VS Code interface, layout, and overall appearance.
@@ -25,17 +25,20 @@ This portfolio is a single-page application built primarily with HTML and CSS to
 * **Codicons:** VS Code's icon font (`@vscode/codicons`) for authentic editor icons.
 * **Font Awesome:** For additional icons.
 
-*(No JavaScript is directly included in the main HTML structure provided, but it could be added for further interactivity if desired.)*
+*(Currently, this version is built with static HTML and CSS.)*
 
-## 🚀 How to View
+## 🚀 How to View Locally
 
-1.  **Clone the repository (or download the files):**
+1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
+    git clone [https://github.com/boopyournose246/vscode-portfolio.git](https://github.com/boopyournose246/vscode-portfolio.git)
     ```
-2.  **Open `index.html` in your web browser:**
-    Simply open the main HTML file (likely named `index.html` or the name of the file you provided) in any modern web browser (like Chrome, Firefox, Edge, Safari) to view the portfolio.
+2.  **Navigate to the project directory:**
+    ```bash
+    cd vscode-portfolio
+    ```
+3.  **Open `index.html` in your web browser:**
+    Simply open the main HTML file (likely `index.html`) in any modern web browser (like Chrome, Firefox, Edge, Safari) to view the portfolio.
 
 ## 📄 Content Highlights
 
@@ -66,10 +69,14 @@ This section, styled as an HTML code editor, provides:
     * Collaborative Web Environment
     (Each project includes a brief description and a list of technologies used.)
 
-## 🌟 Live Demo
+## 🔮 Future Improvements / TODO
 
-*(Optional: If you deploy this to GitHub Pages or another hosting service, add the link here!)*
-**You can view the live version here: [Insert Your Live URL Here]**
+This project serves as a creative static portfolio. Future enhancements could involve evolving it into a more dynamic and interactive application:
+
+* **Modern Stack Implementation:**
+    * [ ] Re-implement the portfolio using **Next.js** (React framework) for Server-Side Rendering (SSR) or Static Site Generation (SSG), improved performance, and better developer experience.
+    * [ ] Utilize **TypeScript** for type safety and improved code maintainability.
+    * [ ] Manage state with a modern solution like Zustand, Redux Toolkit, or React Context API if interactivity becomes complex.
 
 ## 📧 Contact
 
