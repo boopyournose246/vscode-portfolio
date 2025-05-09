@@ -36,7 +36,7 @@ This portfolio is a single-page application built with **React and plain CSS** t
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd vscode-portfolio-react
+    cd vscode-portfolio
     ```
     _(Assuming you used this folder name during setup)_
 3.  **Install dependencies:**
