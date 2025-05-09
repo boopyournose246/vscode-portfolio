@@ -1,0 +1,43 @@
+# .gitignore
+
+# Node dependencies
+node_modules/
+
+# Build output directory (Vite default)
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env*.local
+.env.*.local
+
+# Vite build cache
+.vite/
+
+# IDE/Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Test coverage directory
+coverage/
+
+# Optional: Production build artifacts (if deploying differently)
+# build/
